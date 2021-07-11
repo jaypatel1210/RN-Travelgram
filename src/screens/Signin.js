@@ -47,13 +47,11 @@ const Signin = ({navigation, signIn}) => {
     <Container style={styles.container}>
       <ScrollView contentContainerStyle={{flexGrow: 1}}>
         <H3 style={styles.heading}>Welcome to the Travel-gram Social App</H3>
-
         <Image
           source={Welcome}
           style={{width: null, height: 150, marginTop: 30}}
           resizeMode="contain"
         />
-
         <Form>
           <Item rounded style={styles.formItem}>
             <Input
